@@ -130,19 +130,19 @@ La aplicación está completamente funcional. Aquí se muestran ejemplos visuale
 ### Página de Inicio
 ![Página de Inicio](../imagenes/image.png)
 
-### Catálogo de Productos
+
 ![Catálogo](../imagenes/imagen2.png)
 
-### Gestión de Categorías
+
 ![Gestión de Categorías](../imagenes/imagen3.png)
 
-### Agregar Nuevo Artículo
+
 ![Agregar Artículo](../imagenes/imagen4.png)
 
-### Interfaz de Administrador
+
 ![Panel Admin](../imagenes/imagen5.png)
 
-### Sistema de Autenticación
+
 ![Login](../imagenes/imagen6.png)
 
 ## �📝 Rutas Principales
