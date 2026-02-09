@@ -123,7 +123,29 @@ Ver `requirements.txt` para la lista completa.
 - **Session Management**: Con Flask-Login para autenticación segura
 - **Validación de Formularios**: A través de WTForms
 
-## 📝 Rutas Principales
+## � Capturas de Pantalla
+
+La aplicación está completamente funcional. Aquí se muestran ejemplos visuales de su interfaz:
+
+### Página de Inicio
+![Página de Inicio](../imagenes/image.png)
+
+### Catálogo de Productos
+![Catálogo](../imagenes/imagen2.png)
+
+### Gestión de Categorías
+![Gestión de Categorías](../imagenes/imagen3.png)
+
+### Agregar Nuevo Artículo
+![Agregar Artículo](../imagenes/imagen4.png)
+
+### Interfaz de Administrador
+![Panel Admin](../imagenes/imagen5.png)
+
+### Sistema de Autenticación
+![Login](../imagenes/imagen6.png)
+
+## �📝 Rutas Principales
 
 | Ruta | Método | Descripción | Requiere Admin |
 |------|--------|-------------|----------------|
