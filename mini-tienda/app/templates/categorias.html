@@ -1,0 +1,24 @@
+{% extends "base2.html" %}
+{%block title %}Categorias{% endblock %}
+
+{% block contenido %}
+    <div class="container">
+        <h3>Categorias</h3>
+        <div class="list-group">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Nombre</th>
+                    {% for cat in categorias %}
+                        <tr>
+                            <td>{{cat.nombre}}</td>
+                            {% if current_user.is_authenticated and current_user.is_admin() %}
+                            <td><a href="{{url_for('categorias_edit', id=cat.id)}}"><span class="bi bi-pencil-square"></span>Editar</a></td>
+                            <td><a href="{{url_for('categorias_delete', id=cat.id)}}"><span class="bi bi-trash"></span>Borrar</a></td>
+                            {% endif %}
+                        </tr>
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}
